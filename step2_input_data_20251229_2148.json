@@ -1,0 +1,5 @@
+{
+    "question": "Which is the temperature range of 2 degrees of a closed interval (integer numbers) that has the highest amount of sales (in dolars)?",
+    "metadata": "\n--- TABLES ---\n[('walmart_sales',)]\n\n--- SCHEMA ---\n[(0, 'Store', 'BIGINT', 0, None, 0), (1, 'Date', 'DATETIME', 0, None, 0), (2, 'Weekly_Sales', 'FLOAT', 0, None, 0), (3, 'Holiday_Flag', 'BIGINT', 0, None, 0), (4, 'Temperature', 'FLOAT', 0, None, 0), (5, 'Fuel_Price', 'FLOAT', 0, None, 0), (6, 'CPI', 'FLOAT', 0, None, 0), (7, 'Unemployment', 'FLOAT', 0, None, 0)]\n\n--- COUNT ---\n[(6435,)]\n\n--- SAMPLE ---\n[(1, '2010-02-05 00:00:00.000000', 1643690.9, 0, 42.31, 2.572, 211.0963582, 8.106), (1, '2010-02-12 00:00:00.000000', 1641957.44, 1, 38.51, 2.548, 211.2421698, 8.106), (1, '2010-02-19 00:00:00.000000', 1611968.17, 0, 39.93, 2.514, 211.2891429, 8.106)]\n",
+    "findings": "[(70, 317647116.85), (68, 311248696.41), (64, 278527728.19), (66, 255791937.99), (72, 255748147.83), (74, 250425860.91), (76, 250291040.83), (50, 239615843.5), (62, 239143868.15), (58, 225185204.06)]"
+}
